@@ -1,0 +1,108 @@
+<link rel="stylesheet" href="https://use.typekit.net/elz8xfn.css" />
+           
+           section {
+              background: #f4c3cc;
+              height: 100%;
+            }
+            html{
+              background-color: #f4c3cc;
+            }
+
+            body {
+              font-family: aileron;
+              font-size: 16pt;
+              text-align: left;
+              color:red;
+            }
+
+            h1 {
+              font-family: mencken-std-head-compress;
+              font-size: 100pt;
+              color: red;
+              stroke: black;
+              stroke: 2pt;
+              -webkit-text-stroke: 0.5px black;
+              text-align: center;
+            }
+            a {
+              font-family: mencken-std-head-compress;
+              font-size: 50pt;
+              color: red;
+              stroke: black;
+              -webkit-text-stroke: 0.5px black;
+              text-align: center;
+              text-decoration: none;
+              link-align: center;
+            }
+            p {
+              text-align: center;
+            }
+          
+      .column {
+        float: right;
+        width: 50%;
+
+      }
+      .column img{
+              position: -webkit-sticky; /* Safari */
+              position: sticky;
+              top: 0px;
+              scale: 25%;
+            }
+    
+      }
+      .row: after {
+        content: "";
+        display: table;
+        clear: both; }
+
+            .container {
+              width: 100%;
+              height: 100%;
+              display: flex;
+              flex-direction: wrap;
+            }
+
+            .images {
+              width: 100%;
+              height: 100%;
+              float: left;
+              background-color: #f4c3cc;
+              overflow: scroll;
+              display: flex;
+              flex-direction: column;
+            }
+
+            .nav {
+              width: 100%;
+              height: 100%;
+              float: right;
+              background-color: #f4c3cc;
+              overflow: hidden;
+              display: flex;
+              flex-direction: column;
+            }
+      .example{
+        -webkit-scrollbar{
+          display: none;
+      }
+
+            img.sticky {
+              position: -webkit-sticky; /* Safari */
+              position: sticky;
+              top: 0px;
+              scale: 25%;
+            }
+        .column {
+          float: right;
+          width: 50%;
+          padding 10px;
+        }
+        .column img {
+          margin-top: 12px;
+        }
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
