@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="https://use.typekit.net/elz8xfn.css" />
+
            
            section {
               background: #f4c3cc;
@@ -13,6 +13,11 @@
               font-size: 16pt;
               text-align: left;
               color:red;
+            }
+            h2{
+              font-family: mencken-std-head-compress;
+              font-size: 50pt;
+              text-align: center;
             }
 
             h1 {
