@@ -8,6 +8,7 @@
               background-color: #f4c3cc;
               overflow: scroll;
               overflow-x: hidden;
+              padding:0px;
             }
             ::-webkit-scrollbar{
               width:0px;
