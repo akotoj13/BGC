@@ -41,6 +41,16 @@
               -webkit-text-stroke: 0.5px black;
               text-align: center;
             }
+            h3{
+              font-family: mencken-std-head-compress;
+              font-size: 100pt;
+              color: red;
+              stroke: black;
+              -webkit-text-stroke: 0.5px black;
+              text-align: center;
+              margin: -20px;
+              line-height: 80pt; 
+            }
             a {
               font-family: mencken-std-head-compress;
               font-size: 50pt;
