@@ -1,5 +1,6 @@
 
-           
+        <link rel="stylesheet" href="https://use.typekit.net/elz8xfn.css">   
+
            section {
               background: #f4c3cc;
               height: 100%;
@@ -15,7 +16,7 @@
               color:red;
             }
             h2 {
-              font-family: mencken-std-head-compress;
+              font-family: medusa;
               font-size: 50pt;
               text-align: center;
               stroke:black;
