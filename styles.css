@@ -8,10 +8,9 @@
               background-color: #f4c3cc;
               overflow: scroll;
               overflow-x: hidden;
-              
             }
             ::-webkit-scrollbar{
-              width: 0px;
+              width:0px;
             }
             body {
               font-family: aileron;
@@ -97,11 +96,10 @@
               height: 100%;
               float: right;
               background-color: #f4c3cc;
-              overflow: scroll;
+              overflow: hidden;
               display: flex;
               flex-direction: column;
             }
-            
       .example{
         -webkit-scrollbar{
           display: none;
