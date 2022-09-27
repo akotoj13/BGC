@@ -94,10 +94,9 @@
 
             img.sticky {
               position: -webkit-sticky;
-              position: static;
               top: 0;
-              scale: 25%;
-              padding: 25px;
+              scale: 100%;
+             
             }
         .column {
           float: right;
