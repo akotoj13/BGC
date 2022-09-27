@@ -93,10 +93,11 @@
       }
 
             img.sticky {
-              position: -webkit-sticky; /* Safari */
-              position: sticky;
-              top: 0px;
+              position: -webkit-sticky;
+              position: static;
+              top: 0;
               scale: 25%;
+              padding: 25px;
             }
         .column {
           float: right;
