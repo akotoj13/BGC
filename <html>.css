@@ -42,10 +42,7 @@
             p {
               text-align: center;
             
-            } img.sticky {
-              position: sticky;  
-              top: 0;
-              scale:25%}
+            
       .column {
         float: right;
         width: 50%;
