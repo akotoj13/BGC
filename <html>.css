@@ -93,7 +93,7 @@
           display: none;
       }
 
-            img.sticky {
+            .sticky {
               position:-webkit-sticky;  
               top: 0;
               scale:var(-webkit-sticky)
