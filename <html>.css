@@ -96,7 +96,7 @@
               position: -webkit-sticky; /* Safari */
               position: sticky;
               top: 0px;
-              scale: 100%;
+              scale: 25%;
             }
         .column {
           float: right;
