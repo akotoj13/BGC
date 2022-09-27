@@ -38,6 +38,7 @@ styles.css
             p {
               text-align: center;
             }
+            
           
       .column {
         float: right;
@@ -51,7 +52,7 @@ styles.css
               scale: 25%;
             }
     
-      }
+
       .row: after {
         content: "";
         display: table;
@@ -85,14 +86,13 @@ styles.css
             }
       .example{
         -webkit-scrollbar{
-          display: none;
+          display: none; 
       }
 
             img.sticky {
               position: -webkit-sticky; /* Safari */
               position: sticky;
               top: 0px;
-              scale: 25%;
             }
         .column {
           float: right;
