@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="https://use.typekit.net/elz8xfn.css" />
     <link rel="stylesheet" href="https://use.typekit.net/elz8xfn.css" />
     <link rel="stylesheet" href="https://use.typekit.net/elz8xfn.css" />
-
+    <link rel="stylesheet" href="styles.css">
     <style>
             section {
               background: #f4c3cc;
@@ -96,9 +96,7 @@
       img.sticky {
         position: -webkit-sticky; /* Safari */
         position: sticky;
-        top: 0px;
-        scale: 25%;
-             
+        top: 0px; 
             }
         .column {
           float: right;
