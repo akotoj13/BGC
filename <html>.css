@@ -8,9 +8,9 @@
 <link rel="stylesheet" href="styles.css"><style>section {
   
 html {
-  background-color: #f4c3cc;
+  {background-color: #f4c3cc; 
   height: 100%;
-}
+}}
 
 body {
   font-family: aileron;
