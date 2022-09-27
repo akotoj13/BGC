@@ -48,6 +48,12 @@
             p {
               text-align: center;
             }
+            s {
+              font-family: aileron;
+              font-size: 10pt;
+              text-align: left;
+              color:red;
+            }
           
       .column {
         float: right;
