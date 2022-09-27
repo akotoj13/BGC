@@ -95,12 +95,12 @@ p {
   -webkit-scrollbar-display: none;
 }
 
-img.sticky {
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0px;
-  scale: 25%;
-}
+ img.sticky {
+              position: -webkit-sticky; /* Safari */
+              position: sticky;
+              top: 0px;
+              scale: 100%%;
+            }
 
 .column {
   float: right;
