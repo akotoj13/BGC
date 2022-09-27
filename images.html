@@ -3,7 +3,7 @@
     <title>Images</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-        body: .-webkit-scrollbar{
+        body:: .-webkit-scrollbar{
           display:none;
         }
         body {
@@ -11,8 +11,14 @@
         }
         html {
           padding: 0px;
+          margin: 0px;
         }
-      
+        img.sticky {
+              position: -webkit-sticky; /* Safari */
+              position: sticky;
+              top: 0px;
+              scale: 25%;
+            }
     </style>
 </head>
 <body>
