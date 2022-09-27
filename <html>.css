@@ -93,10 +93,11 @@
           display: none;
       }
 
-            .sticky {
-              position:-webkit-sticky;  
-              top: 0;
-              scale:var(-webkit-sticky)
+      img.sticky {
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0px;
+        scale: 25%;
              
             }
         .column {
