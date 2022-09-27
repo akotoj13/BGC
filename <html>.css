@@ -1,208 +1,159 @@
 <html>
-  <head>
-    <title>BGC Reader</title>
-    <link rel="stylesheet" href="https://use.typekit.net/elz8xfn.css" />
-    <link rel="stylesheet" href="https://use.typekit.net/elz8xfn.css" />
-    <link rel="stylesheet" href="https://use.typekit.net/elz8xfn.css" />
-    <link rel="stylesheet" href="https://use.typekit.net/elz8xfn.css" />
-    <link rel="stylesheet" href="styles.css">
-    <style>
-            section {
-              background: #f4c3cc;
-              height: 100%;
-            }
-            html{
-              background-color: #f4c3cc;
-            }
+<head>
+<title>BGC Reader</title>
+<link rel="stylesheet" href="https://use.typekit.net/elz8xfn.css" />
+<link rel="stylesheet" href="https://use.typekit.net/elz8xfn.css" />
+<link rel="stylesheet" href="https://use.typekit.net/elz8xfn.css" />
+<link rel="stylesheet" href="https://use.typekit.net/elz8xfn.css" />
+<link rel="stylesheet" href="styles.css"><style>section {
+  
+html {
+  background-color: #f4c3cc;
+  height: 100%;
+}
 
-            body {
-              font-family: aileron;
-              font-size: 16pt;
-            }
+body {
+  font-family: aileron;
+  font-size: 16pt;
+}
 
-            h1 {
-              font-family: mencken-std-head-compress;
-              font-size: 100pt;
-              color: red;
-              stroke: black;
-              stroke-weight: 2pt;
-              -webkit-text-stroke: 0.5px black;
-              text-align: center;
-            }
-            a {
-              font-family: mencken-std-head-compress;
-              font-size: 50pt;
-              color: red;
-              stroke: black;
-              -webkit-text-stroke: 0.5px black;
-              text-align: center;
-              text-decoration: none;
-              link-align: center;
-            }
-            p {
-              text-align: center;
-            
-            
-      .column {
-        float: right;
-        width: 50%;
+h1 {
+  font-family: mencken-std-head-compress;
+  font-size: 100pt;
+  color: red;
+  stroke: black;
+  stroke-weight: 2pt;
+  -webkit-text-stroke: 0.5px black;
+  text-align: center;
+}
 
-      }
-      .column img{
-              position: -webkit-sticky; /* Safari */
-              position: sticky;
-              top: 0px;
-              scale: 100%;
-            }
-    
-      }
-      {
-      .row: after 
-        content: "";
-        display: table;
-        clear: both;
-      }
+a {
+  font-family: mencken-std-head-compress;
+  font-size: 50pt;
+  color: red;
+  stroke: black;
+  -webkit-text-stroke: 0.5px black;
+  text-align: center;
+  text-decoration: none;
+  link-align: center;
+}
 
-            .container {
-              width: 100%;
-              height: 100%;
-              display: flex;
-              flex-direction: wrap;
-            }
+p {
+  text-align: center;
 
-            .right {
-              width: 100%;
-              height: 100%;
-              float: left;
-              background-color: #f4c3cc;
-              overflow: scroll;
-              display: flex;
-              flex-direction: column;
-            }
 
-            .left {
-              width: 100%;
-              height: 100%;
-              float: right;
-              background-color: #f4c3cc;
-              overflow: hidden;
-              display: flex;
-              flex-direction: column;
-            }
-      .example{
-        -webkit-scrollbar-display: none;
-      }
+  .column {
+    float: right;
+    width: 50%;
 
-      img.sticky {
-        position: -webkit-sticky; /* Safari */
-        position: sticky;
-        top: 0px;
-      }
-        .column {
-          float: right;
-          width: 50%;
-          padding: 10px
-        }
-        .column img {
-          margin-top: 12px;
-        }
-        .row:after {
-          content: "";
-          display: table;
-          clear: both;
-        }
-    </style>
-   
- 
-    <body> 
-      <div class="container">
-        <div class="right">
-          <div class="row">
-            <div class="column">
-              <img
-                class="sticky"
-                src="https://cdn.glitch.me/5a630971-a868-447a-9798-bf8612f3587f%2F34.png?v=1638056283071"
-                style="width:100%"
-              />
-              <img
-                class="sticky"
-                src="https://cdn.glitch.me/5a630971-a868-447a-9798-bf8612f3587f%2F16.gif?v=1638056434732"
-                style="width:100%"
-              />
-              <img
-                class="sticky"
-                src="https://cdn.glitch.me/5a630971-a868-447a-9798-bf8612f3587f%2F45.png?v=1638056349143"
-                style="width:100%"
-              />
-              <img
-                class="sticky"
-                src="https://cdn.glitch.me/5a630971-a868-447a-9798-bf8612f3587f%2F12.gif?v=1638056414778"
-                style="width:100%"
-              />
-              <img
-                class="sticky"
-                src="https://cdn.glitch.me/5a630971-a868-447a-9798-bf8612f3587f%2F35.png?v=1638056297088"
-                style="width:100%"
-              />
-              <img
-                class="sticky"
-                src="https://cdn.glitch.me/5a630971-a868-447a-9798-bf8612f3587f%2F06.gif?v=1638056385841"
-                style="width:100%"
-              />
-              <img
-                class="sticky"
-                src="https://cdn.glitch.me/5a630971-a868-447a-9798-bf8612f3587f%2F36.png?v=1638056301751"
-                style="width:100%"
-              />
-              <img
-                class="sticky"
-                src="https://cdn.glitch.me/5a630971-a868-447a-9798-bf8612f3587f%2F08.gif?v=1638056393243"
-                style="width:100%"
-              />
-            </div>
-            <div class="column">
-              <img
-                class="sticky"
-                src="https://cdn.glitch.me/5a630971-a868-447a-9798-bf8612f3587f%2F03.gif?v=1638056372664"
-                style="width:100%">
-              <img
-                class="sticky"
-                src="https://cdn.glitch.me/5a630971-a868-447a-9798-bf8612f3587f%2F33.png?v=1638055611925"
-                style="width:100%">
-              <img
-                class="sticky"
-                src="https://cdn.glitch.me/5a630971-a868-447a-9798-bf8612f3587f%2F07.gif?v=1638056389413"
-                style="width:100%">
-              <img
-                class="sticky"
-                src="https://cdn.glitch.me/5a630971-a868-447a-9798-bf8612f3587f%2F46.png?v=1638056352952"
-                style="width:100%">
-              <img
-                class="sticky"
-                src="https://cdn.glitch.me/5a630971-a868-447a-9798-bf8612f3587f%2F10.gif?v=1638056400049"
-                style="width:100%">
-              <img
-                class="sticky"
-                src="https://cdn.glitch.me/5a630971-a868-447a-9798-bf8612f3587f%2F37.png?v=1638056305572"
-                style="width:100%">
-              <img
-                class="sticky"
-                src="https://cdn.glitch.me/5a630971-a868-447a-9798-bf8612f3587f%2F09.gif?v=1638056396472"
-                style="width:100%">
-            </div>
-          </div>
-        </div>
-        <div class="left">
-          <h1>
-            BAD GIRLS CLUB
-          </h1>
-          <a href="url">ESSAY</a>
-          <a href="url">LEAVE IT AT THE DOOR</a>
-          <a href="url">POTOMAC</a>
-          <a href="url">PUBLICATION</a>
-        </div>
-      </div>
-    </body>
-  </head>
-</html>
+  }
 
+  .column img {
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0px;
+    scale: 100%;
+  }
+
+}
+
+  {
+  .row: after content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: wrap;
+}
+
+.right {
+  width: 100%;
+  height: 100%;
+  float: left;
+  background-color: #f4c3cc;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+}
+
+.left {
+  width: 100%;
+  height: 100%;
+  float: right;
+  background-color: #f4c3cc;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.example {
+  -webkit-scrollbar-display: none;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  /* Safari */
+  position: sticky;
+  top: 0px;
+}
+
+.column {
+  float: right;
+  width: 50%;
+  padding: 10px
+}
+
+.column img {
+  margin-top: 12px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+</style><body><div class="container"><div class="right"><div class="row"><div class="column"><img class="sticky"
+src="https://cdn.glitch.me/5a630971-a868-447a-9798-bf8612f3587f%2F34.png?v=1638056283071"
+style="width:100%"
+/><img class="sticky"
+src="https://cdn.glitch.me/5a630971-a868-447a-9798-bf8612f3587f%2F16.gif?v=1638056434732"
+style="width:100%"
+/><img class="sticky"
+src="https://cdn.glitch.me/5a630971-a868-447a-9798-bf8612f3587f%2F45.png?v=1638056349143"
+style="width:100%"
+/><img class="sticky"
+src="https://cdn.glitch.me/5a630971-a868-447a-9798-bf8612f3587f%2F12.gif?v=1638056414778"
+style="width:100%"
+/><img class="sticky"
+src="https://cdn.glitch.me/5a630971-a868-447a-9798-bf8612f3587f%2F35.png?v=1638056297088"
+style="width:100%"
+/><img class="sticky"
+src="https://cdn.glitch.me/5a630971-a868-447a-9798-bf8612f3587f%2F06.gif?v=1638056385841"
+style="width:100%"
+/><img class="sticky"
+src="https://cdn.glitch.me/5a630971-a868-447a-9798-bf8612f3587f%2F36.png?v=1638056301751"
+style="width:100%"
+/><img class="sticky"
+src="https://cdn.glitch.me/5a630971-a868-447a-9798-bf8612f3587f%2F08.gif?v=1638056393243"
+style="width:100%"
+/></div><div class="column"><img class="sticky"
+src="https://cdn.glitch.me/5a630971-a868-447a-9798-bf8612f3587f%2F03.gif?v=1638056372664"
+style="width:100%"><img class="sticky"
+src="https://cdn.glitch.me/5a630971-a868-447a-9798-bf8612f3587f%2F33.png?v=1638055611925"
+style="width:100%"><img class="sticky"
+src="https://cdn.glitch.me/5a630971-a868-447a-9798-bf8612f3587f%2F07.gif?v=1638056389413"
+style="width:100%"><img class="sticky"
+src="https://cdn.glitch.me/5a630971-a868-447a-9798-bf8612f3587f%2F46.png?v=1638056352952"
+style="width:100%"><img class="sticky"
+src="https://cdn.glitch.me/5a630971-a868-447a-9798-bf8612f3587f%2F10.gif?v=1638056400049"
+style="width:100%"><img class="sticky"
+src="https://cdn.glitch.me/5a630971-a868-447a-9798-bf8612f3587f%2F37.png?v=1638056305572"
+style="width:100%"><img class="sticky"
+src="https://cdn.glitch.me/5a630971-a868-447a-9798-bf8612f3587f%2F09.gif?v=1638056396472"
+style="width:100%"></div></div></div><div class="left"><h1>BAD GIRLS CLUB </h1><a href="url">ESSAY</a><a href="url">LEAVE IT AT THE DOOR</a><a href="url">POTOMAC</a><a href="url">PUBLICATION</a></div></div></body></head></html>
